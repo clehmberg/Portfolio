@@ -1,0 +1,75 @@
+.btn {
+  background-color: lightgrey;
+}
+.btn:hover {
+  background-color: white;
+}
+.btn:active {
+  background-color: white;
+  box-shadow: 0 5px #777;
+  transform: translateY(4px);
+}
+
+img {
+  margin: 10px;
+  border: 3px solid grey;
+  box-shadow: 6px 6px black;
+  border-radius: 50px;
+}
+image {
+  width: 400px;
+  height: 350px;
+}
+nav {
+  background: #3399ff;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 2px 2px grey;
+  border: 3px solid black;
+}
+body {
+  background: #e6f2ff;
+  margin-bottom: 5px;
+  border: 50px solid lightgrey;
+  padding: 20px;
+  box-shadow: 2px 2px grey;
+}
+fieldset {
+  margin: 10px;
+  border: 2px solid black;
+}
+footer {
+  background-color: blue;
+  font-size: 60px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+}
+h2, h1 {
+  font-family: Comic Sans MS;
+}
+table {
+  margin: auto;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  float: right;
+}
+.fa {
+  margin: 5px;
+  padding: 5px;
+  float: right;
+  font-size: 100px;
+}
+hr {
+  display: block;
+  margin: auto;
+  border-style: inset;
+  border-width: 5px;
+}
+.info {
+  font-size: 50px;
+  text-align: center;
+}
