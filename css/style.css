@@ -1,10 +1,14 @@
 .btn {
-  background-color: lightgrey;
+  background-color: white;
+  width: 33%;
+  height: 100%;
 }
 .btn:hover {
-  background-color: white;
+  background-color: lightgrey;
 }
 .btn:active {
+  border: 2px solid black;
+  border-color: black;
   background-color: white;
   box-shadow: 0 5px #777;
   transform: translateY(4px);
@@ -22,20 +26,22 @@ image {
 }
 nav {
   background: #3399ff;
-  margin-right: 50px;
-  margin-left: 50px;
   box-shadow: 2px 2px grey;
   border: 3px solid black;
+  padding: 0;
+  margin: 0;
 }
 body {
   background: #e6f2ff;
   margin-bottom: 5px;
-  border: 50px solid lightgrey;
+  /*border: 50px solid lightgrey;*/
   padding: 20px;
-  box-shadow: 2px 2px grey;
+  /*box-shadow: 2px 2px grey;*/
+  margin: 4em;
 }
-fieldset {
-  margin: 10px;
+form {
+  padding-left: 4px;
+  display: inline-block;
   border: 2px solid black;
 }
 footer {
@@ -54,9 +60,11 @@ p {
   font-size: 20px;
   text-align: center;
 }
-h3 {
-  float: right;
+
+.pic1 {
+float: right;
 }
+
 .fa {
   margin: 5px;
   padding: 5px;
